@@ -1,0 +1,11 @@
+Django>=4.0,<5.0
+psycopg2>=2.9,<3.0  # For PostgreSQL database
+djangorestframework>=3.12,<4.0  # For building REST APIs
+gunicorn>=20.1,<21.0  # WSGI server for production
+whitenoise>=5.3,<6.0  # For serving static files in production
+# Pillow>=8.0,<9.0  # For image processing (commonly used for image fields)
+# python-dotenv>=0.19,<1.0  # For managing environment variables
+# django-environ>=0.8,<1.0  # For environment variable configuration
+# celery>=5.2,<6.0  # For background task processing
+# redis>=4.0,<5.0  # If using Redis as the broker for Celery
+django-extensions>=3.1,<4.0  # Provides management commands and extensions
